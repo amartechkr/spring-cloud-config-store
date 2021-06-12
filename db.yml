@@ -1,0 +1,15 @@
+management:
+  endpoints:
+    web:
+      exposure:
+        exclude:
+        - "*"  
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/amardb
+    username: root
+    password: System@1994
+    driver-class-name: com.mysql.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
